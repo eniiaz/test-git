@@ -11,7 +11,6 @@ public class Google {
    @Test
     public void test(){
        WebDriver driver = new ChromeDriver();
-       driver.get("https://google.com");
        driver.findElement(By.name("q")).sendKeys("selenium" + Keys.ENTER);
    }
 }
